@@ -1,0 +1,9 @@
+@mixin font-face() {
+    @font-face {
+        font-family: 'dancing-script';
+        font-weight: 500;
+        font-style: normal;
+        src: url('../assets/fonts/DancingScript-Regular.otf') format('opentype');
+        font-display: fallback;
+    }
+}

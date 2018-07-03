@@ -1,0 +1,47 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="content-page">
+
+    <ion-list>
+        <h2>
+          Bem Vindo ao Befine
+        </h2>
+          <ion-item>
+            <ion-label floating>Seu Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label floating>Sua Senha</ion-label>
+              <ion-input type="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+    
+            <div class="ion-list-div">
+                <button class="btn-signin" ion-button (click)="login()">Login</button>
+            </div>
+
+
+            <ion-item>
+              <br>
+              <br>
+              <a (click) ="navCtrl.push(cadastroRoute)">Não Possui Conta? Cadastre-se aqui!</a>
+            </ion-item>
+
+            
+    </ion-list>
+
+  </div>
+</ion-content>

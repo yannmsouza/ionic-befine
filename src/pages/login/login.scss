@@ -1,0 +1,41 @@
+page-login {
+
+    .content-page{
+        font-family: 'roboto';
+        font-size: 18px;
+
+        display: flex ;
+        justify-content: center ;
+        align-items: center ;
+        align-content: center ;
+
+    }
+
+    // ion-list {
+    //     margin-top: 30vh;
+    // }
+
+    h2 {
+        padding-top: 20vh;
+    }
+
+    ion-item {
+        padding: 0px 0px !important;
+    }
+    .ion-list-div {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+    }
+
+    .btn-signin {
+        height: 50px;
+        font-size: 20px;
+        background: rgba(45, 116, 116, 1);
+        color: white;
+    }
+
+
+}
